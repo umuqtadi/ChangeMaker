@@ -20,10 +20,10 @@ namespace ChangeMaker
             //this is our object that will hold the data of how many coins of each type to return
             Change amountAsChange = new Change();
            
-
+            //TODO: Fill in the the code to make this function work
 
             //return our Change Object
-            return changeProvided;
+            return amountAsChange;
         }
 
         /// <summary>
@@ -38,6 +38,7 @@ namespace ChangeMaker
             amountAsChange.Quarters++;
             amountAsChange.Quarters += 1;
             amountAsChange.Quarters = amountAsChange.Quarters + 1;
+
 
             //outputting to the console
             Console.WriteLine("Quarters: " + amountAsChange.Quarters);
